@@ -1,0 +1,25 @@
+/*@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    color: rgb(0, 0, 14);
+}*/
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root{
+--brown-700: #4B2E2A;
+--cream-50: #F7EFE6;
+--orange-600: #C76C2C;
+}
+
+
+.bg-cream-50{ background-color: var(--cream-50) }
+.bg-brown-700{ background-color: var(--brown-700) }
+.text-brown-700{ color: var(--brown-700) }
